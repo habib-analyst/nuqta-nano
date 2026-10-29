@@ -1,0 +1,4 @@
+{"epoch": 1, "train_loss": 1.9933, "dev_corpus_cer": null, "dev_exact_match": null, "elapsed_s": 593.8}
+{"epoch": 2, "train_loss": 0.8098, "dev_corpus_cer": 0.239, "dev_exact_match": 0.2887, "elapsed_s": 1233.8}
+{"epoch": 3, "train_loss": 0.6196, "dev_corpus_cer": null, "dev_exact_match": null, "elapsed_s": 1801.8}
+{"epoch": 4, "train_loss": 0.5411, "dev_corpus_cer": 0.2231, "dev_exact_match": 0.3174, "elapsed_s": 2464.7}

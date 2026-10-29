@@ -1,0 +1,46 @@
+{
+ "train": {
+  "pairs": 106260,
+  "urdu_word_types": 25000,
+  "roman_inputs": 93621,
+  "roman_inputs_with_multiple_refs": 9554,
+  "max_refs_for_one_input": 28
+ },
+ "dev": {
+  "pairs": 10424,
+  "urdu_word_types": 2500,
+  "roman_inputs": 10238,
+  "roman_inputs_with_multiple_refs": 177,
+  "max_refs_for_one_input": 4,
+  "unseen_src_chars": [],
+  "unseen_tgt_chars": []
+ },
+ "test": {
+  "pairs": 10517,
+  "urdu_word_types": 2500,
+  "roman_inputs": 10327,
+  "roman_inputs_with_multiple_refs": 182,
+  "max_refs_for_one_input": 3,
+  "unseen_src_chars": [],
+  "unseen_tgt_chars": []
+ },
+ "urdu_type_overlap": {
+  "train_dev": 0,
+  "train_test": 0,
+  "dev_test": 0
+ },
+ "roman_input_overlap": {
+  "train_test": 1906,
+  "note": "roman strings may recur across splits attached to different Urdu words; the held-out guarantee is on Urdu word types + lemmata (Dakshina's partition)"
+ },
+ "sentences_test": {
+  "sentence_pairs": 4880
+ },
+ "vocab": {
+  "src_chars": 26,
+  "src_size": 30,
+  "tgt_chars": 54,
+  "tgt_size": 58,
+  "tgt_charset": "ءآؤئابتثجحخدذرزسشصضطظعغفقكلمنهويًَُِّٰٗٹپچڈڑژکگںھہۃیےۓ"
+ }
+}
